@@ -1,4 +1,17 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./BungeeSpice.woff') format('woff');
+  font-size: 800px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
 .hello {
   color: red;
   background: url('./square.png');
+  font-family: 'MyFont';
+  
 }
